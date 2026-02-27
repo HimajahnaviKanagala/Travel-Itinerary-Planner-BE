@@ -251,7 +251,7 @@ CREATE TABLE activity_recommendations (
 
 ## 📡 API Documentation
 
-**Base URL:** `http://localhost:4000/api`
+**Base URL:** http://localhost:4000
 
 All protected routes require the `Authorization: Bearer <token>` header.
 
@@ -411,33 +411,9 @@ All protected routes require the `Authorization: Bearer <token>` header.
 
 ---
 
-### Standard Error Response
-
-All errors follow this format:
-
-```json
-{
-  "error": "Description of what went wrong"
-}
-```
-
-| Status Code | Meaning |
-|-------------|---------|
-| 200 | Success |
-| 201 | Created |
-| 400 | Bad Request (validation error) |
-| 401 | Unauthorized (missing or invalid token) |
-| 403 | Forbidden (insufficient role) |
-| 404 | Not Found |
-| 500 | Internal Server Error |
-
----
-
 ## 🚀 Deployment Link
 
-> **Live API:** `https://your-deployment-url.com/api`
-
-> ⚠️ Replace this with your actual deployment URL (Railway / Render / Fly.io / etc.)
+> **Live API:** https://travel-itinerary-planner-be-1.onrender.com
 
 **Recommended deployment platforms:**
 

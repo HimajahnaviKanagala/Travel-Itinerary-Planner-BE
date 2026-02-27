@@ -486,4 +486,3 @@ wanderlust-backend/
 
 ---
 
-*Built with ❤️ using Node.js + Supabase*
